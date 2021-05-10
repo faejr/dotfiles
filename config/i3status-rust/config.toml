@@ -30,6 +30,11 @@ format = "{1m}"
 block = "sound"
 
 [[block]]
+block = "keyboard_layout"
+driver = "setxkbmap"
+interval = 15
+
+[[block]]
 block = "time"
 interval = 60
 format = "%a %d/%m %R"

@@ -85,7 +85,7 @@ bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
-# alternatively, you can use the cursor keys:
+# alternatively, you ca use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
@@ -121,7 +121,9 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
+
+bindsym $mod+space exec --no-startup-id bash -c "$HOME/.config/i3/switch-layout.sh" # change lang lol
 
 # focus the parent container
 bindsym $mod+a focus parent
