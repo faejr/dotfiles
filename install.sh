@@ -20,7 +20,7 @@ if command -v yay &> /dev/null; then
   yay -S zsh git curl neovim-git neovim-symlinks nvim-packer-git npm lua-language-server python-pywal feh rofi i3-gaps i3status-rust
 
   # Extras
-  yay -S zsh-theme-powerlevel10k powerline-fonts awesome-terminal-fonts
+  yay -S zsh-theme-powerlevel10k powerline-fonts awesome-terminal-fonts maim xclip
 fi
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
